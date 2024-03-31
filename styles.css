@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+body {
+    display: flex;   /*e organizado dentro da caixa automaticamente dependendo do tamanho da tela*/
+    justify-content: center;   /* alinha no horizontal, so consigo usr quando o display e flex*/
+    align-items: center;   /*alinha no vertical */
+    height: 100vh; /*altura*/
+    width: 100vw;  /*largura*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscap");
+}
+
+.caixa-maior {
+    background-color: black;
+    width: 95%;  /* largura */
+    max-width: 420px; /*largura maxima*/
+    opacity: 0.7;  
+    padding: 20px;  /*espaçamento entre os itens*/
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;  /* espaçamento de dentro pra fora*/
+    border-radius: 24px;  /*arredonda as bordas*/
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: azure;
+    width: calc(100% - 100px);  /*ao diminuir ele nao ira quebrar, e como se deixasse responsivel*/
+}
+
+.time {
+    color: azure;
+} 
+
+.descricao {
+    color: azure;
+    margin-left: 20px;
+    text-transform: capitalize;  /* deixar a primeira letra sempre em maiuscula*/
+}
+
+h2 {
+    color: azure;
+    font-size: 28px;
+}
+
+.lupa {
+    height: 25px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+.caixa-media {
+    margin-top: 23px;
+}
+
+.umidade {
+    color: azure;
+    margin-top: 23px;
+}
+
+.time {
+    margin-top: 23px;
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+}
+
